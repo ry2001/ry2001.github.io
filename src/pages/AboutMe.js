@@ -1,5 +1,5 @@
 import Typed from "react-typed";
-import { motion as m, usePresence } from "framer-motion";
+import { motion as m } from "framer-motion";
 import { SlSpeech } from "react-icons/sl";
 import { HiOutlineEye } from "react-icons/hi";
 import { GiRegeneration } from "react-icons/gi";
@@ -39,7 +39,7 @@ export default function AboutMe() {
             className="font-burtons text-5xl dark:text-white p-10"
           />
         </div>
-        <div className="text-center text-lg pb-10 mx-auto px-10 dark:text-white">
+        <div className="text-center text-lg pb-10 mx-auto px-10 my-5 dark:text-white">
           I am a third year undergraduate majoring in Design and Artificial
           Intelligence (DAI) programme in SUTD. My interests lie in the
           applications of Artificial Intelligence and Data Science and I have
@@ -48,11 +48,6 @@ export default function AboutMe() {
           watch comedies and play basketball during my free time to have fun and
           enjoy life.
         </div>
-        <img
-          src="pic.jpg"
-          className="mx-auto my-5 rounded-xl shadow-lg w-80 h-80"
-          alt="Me"
-        ></img>
       </m.section>
       <section className="bg-blue-200 dark:bg-blue-800 p-5">
         <div className="flex justify-center">
