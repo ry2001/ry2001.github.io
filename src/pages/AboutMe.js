@@ -22,7 +22,6 @@ import {
 } from "react-icons/si";
 
 export default function AboutMe() {
-  const [isPresent, safeToRemove] = usePresence();
   return (
     <main className="font-robotomono bg-blue-500 dark:bg-blue-950">
       <m.section
