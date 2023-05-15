@@ -202,8 +202,7 @@ export default function AboutMe() {
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900 dark:border-white dark:bg-gray-200"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-800 dark:text-gray-100">
-                  {/* May 2023 - Present */}
-                  Not Started Yet
+                  May 2023 - Present
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Changi Airport Group (CAG)
