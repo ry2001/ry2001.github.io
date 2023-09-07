@@ -100,6 +100,20 @@ export const projectData = [
     },
     urls: ["https://github.com/HASSRaccoon/Systems-DS-Grab-Simulation"],
   },
+  {
+    id: 7,
+    title: "Skytrain Survaillance - Unattended Baggage Detection",
+    category: "Computer Vision, Amazon Web Service",
+    img: "https://images.unsplash.com/photo-1495320520040-44186a20c601?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    desc: {
+      location: "CAG-DIVA",
+      time: "(May 2023 - Aug 2023)",
+      description: `Currently, the workers will need to manually look at multiple screens to check whether there is any unattended baggages in Skytrain.
+      Hence, this project aims to use edge devices to detect the unattended baggages in Skytrain through the CCTV footage.
+      A Jetson Xavier device with AWS IoT Greengrass installed was planted on the Skytrain, connecting it with the CCTV camera to capture the footage and perform object detection using YOLOv8.`,
+    },
+    urls: []
+  },
 ];
 
 export default projectData;

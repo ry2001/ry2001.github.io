@@ -71,14 +71,14 @@ export default function AboutMe() {
             <SlSpeech className="text-5xl" />
             <h3 className="text-lg font-bold">Natural Language Processing</h3>
             <p className="py-2">
-              Language is a powerful tool and I like to play with it
+              Language is a powerful tool, process and understand them better
             </p>
           </div>
           <div className="basis-1/4 flex-1 p-5">
             <HiOutlineEye className="text-5xl" />
             <h3 className="text-lg font-bold">Computer Vision</h3>
             <p className="py-2">
-              Vision made my life, a life without CV will be hard
+              Vision made my life, CV helps to discover even more details
             </p>
           </div>
           <div className="basis-1/4 flex-1 ">
@@ -93,8 +93,7 @@ export default function AboutMe() {
             <BsFillClipboard2DataFill className="text-5xl dark:text-white" />
             <h3 className="text-lg font-bold">Data Analysis</h3>
             <p className="py-2">
-              This is a data driven world, without data analysis, you don't know
-              anything
+              This is a data driven world, analyze and understand them to help ourselves
             </p>
           </div>
         </div>
@@ -196,23 +195,22 @@ export default function AboutMe() {
                   Honours
                 </p>
                 <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
-                  Expected Date of Graduation: April 2024 (CGPA: 4.0/5.0)
+                  Expected Date of Graduation: April 2024 (CGPA: 4.05/5.0)
                 </p>
               </li>
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900 dark:border-white dark:bg-gray-200"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-800 dark:text-gray-100">
-                  May 2023 - Present
-                  // May 2023 - Sept 2023
+                  May 2023 - Sept 2023
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Changi Airport Group (CAG)
                 </h3>
                 <h3 className="text-sm font-semibold text-gray-800 dark:text-gray-200">
-                  DIVA (Digital, Innovation, Ventures & Analytics)
+                  Digital, Innovation, Ventures & Analytics (DIVA)
                 </h3>
                 <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
-                  AI Engineer Intern
+                  AI & IoT Engineer Intern
                 </p>
               </li>
             </ol>
