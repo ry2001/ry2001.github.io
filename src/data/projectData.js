@@ -114,6 +114,39 @@ export const projectData = [
     },
     urls: []
   },
+  {
+    id: 8,
+    title: "GoodforAI",
+    category: "Computer Vision, Web Development",
+    img: "goodforai.png",
+    desc: {
+      location: "SUTD",
+      course: "60.006 Spatial Design Studio",
+      time: "(Sept 2023 - present)",
+      collaborator:
+        "This is a school project that collaborates with Ai for Good as industry partner.",
+      description: `This project is aimed to use AI model to detect the boundary of a given forest by providing the coordinates of the forest.
+      Users may crop the area of interest on the satellite image of the tile and will pass the cropped image to segment the boundary of the forest using Segment Anything Model (SAM). 
+      `,
+    },
+    urls: [],
+  },
+  {
+    id: 9,
+    title: "Entity Resolution",
+    category: "Natural Language Processing",
+    img: "entity_resolution.jpg",
+    desc: {
+      location: "SUTD",
+      course: "Capstone",
+      time: "(Sept 2023 - present)",
+      collaborator:
+        "This is a school final year capstone project that collaborates with Klass Engineering as industry partner.",
+      description: `In the big data era, people are having multiple social media accounts. 
+      This project aimed to use Entity Resolution to match a profile that might be pointing to the searched person.`,
+    },
+    urls: [],
+  },
 ];
 
 export default projectData;
