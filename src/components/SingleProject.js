@@ -10,7 +10,7 @@ function showDesc(desc) {
   const collaborator = desc["collaborator"];
   const description = desc["description"];
   return (
-    <div className="flex flex-col dark:text-ternary-light w-80 px-3">
+    <div className="flex flex-col dark:text-ternary-light w-80 large:h-96 large:w-96 px-3">
       <p className="font-bold text-lg dark:text-ternary-light w-70 pt-3">
         {location}
       </p>
@@ -56,7 +56,7 @@ export default function SingleProject(props) {
             <img
               onClick={() => setClicked(!clicked)}
               src={props.image}
-              className="rounded-t-xl border-none h-80 w-80"
+              className="rounded-t-xl border-none h-80 w-80 large:h-96 large:w-96"
               alt="Single Project"
             />
           ) : (
@@ -65,7 +65,7 @@ export default function SingleProject(props) {
             </div>
           )}
         </div>
-        <div className="text-center px-4 pt-5 pb-10 w-80 my-5">
+        <div className="text-center px-4 pt-5 pb-10 w-80 large:w-96 my-5">
           <p className="font-bold text-lg mb-2">{props.title}</p>
           <span className="text-sm">{props.category}</span>
         </div>

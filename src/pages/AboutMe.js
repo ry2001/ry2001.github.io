@@ -40,7 +40,7 @@ export default function AboutMe() {
           />
         </div>
         <div className="text-center text-lg pb-10 mx-auto px-10 my-5 dark:text-white">
-          I am a third year undergraduate majoring in Design and Artificial
+          I am a final year undergraduate majoring in Design and Artificial
           Intelligence (DAI) programme in SUTD. My interests lie in the
           applications of Artificial Intelligence and Data Science and I have
           acquired much experience in these areas through a variety of AI

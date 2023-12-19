@@ -27,16 +27,16 @@ export default function Navbar(props) {
       </div>
       <div className="flex">
         {location.pathname === "/" ? (
-          <div className="font-bananasitalic text-5xl px-5">About Me</div>
+          <div className="font-bananasitalic text-4xl large:text-5xl px-5">About Me</div>
         ) : (
-          <div className="font-bananasitalic text-5xl px-5 hover:text-blue-300">
+          <div className="font-bananasitalic text-4xl large:text-5xl px-5 hover:text-blue-300">
             <Link to="/">About Me</Link>
           </div>
         )}
         {location.pathname.toLowerCase() === "/projects" ? (
-          <div className="font-bananasitalic text-5xl px-5">Projects</div>
+          <div className="font-bananasitalic text-4xl large:text-5xl px-5">Projects</div>
         ) : (
-          <div className="font-bananasitalic text-5xl px-5 hover:text-blue-300">
+          <div className="font-bananasitalic text-4xl large:text-5xl px-5 hover:text-blue-300">
             <Link to="/projects">Projects</Link>
           </div>
         )}
