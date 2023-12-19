@@ -116,23 +116,39 @@ export const projectData = [
   },
   {
     id: 8,
-    title: "GoodforAI",
+    title: "Forest Find",
     category: "Computer Vision, Web Development",
     img: "goodforai.png",
     desc: {
       location: "SUTD",
       course: "60.006 Spatial Design Studio",
-      time: "(Sept 2023 - present)",
+      time: "(Sept 2023 - Dec 2023)",
       collaborator:
         "This is a school project that collaborates with Ai for Good as industry partner.",
-      description: `This project is aimed to use AI model to detect the boundary of a given forest by providing the coordinates of the forest.
-      Users may crop the area of interest on the satellite image of the tile and will pass the cropped image to segment the boundary of the forest using Segment Anything Model (SAM). 
+      description: `This project is aimed to use AI model to detect the boundary of a given forest by providing the coordinates of the forest. 
+      Users may crop the area of interest on the satellite image of the tile and will pass the cropped image to segment the boundary of the forest using Segment Anything Model (SAM).
+      The segmentation will then be converted into a shapefile that can be used in different applications.
       `,
+    },
+    urls: ["https://github.com/stjianqing/aiforevil"],
+  },
+  {
+    id: 9,
+    title: "Sign Dojo",
+    category: "Computer Vision",
+    img: "signdojo.jpg",
+    desc: {
+      location: "SUTD",
+      course: "50.035 Computer Vision",
+      time: "(Sept 2023 - Dec 2023)",
+      collaborator:
+        "",
+      description: `This project aims to use AI model to perform American Sign Language (ASL) recognition and provide immediate feedback to the users.`,
     },
     urls: [],
   },
   {
-    id: 9,
+    id: 10,
     title: "Entity Resolution",
     category: "Natural Language Processing",
     img: "entity_resolution.jpg",
