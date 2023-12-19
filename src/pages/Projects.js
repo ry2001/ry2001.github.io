@@ -9,7 +9,7 @@ export default function Projects() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
-      <section className="flex flex-col gap-10 p-5 lg:flex-row lg:flex-wrap dark:text-white">
+      <section className="flex flex-col gap-10 p-5 large:flex-row large:flex-wrap dark:text-white">
         {projectData.map((project) => (
           <SingleProject
             key={project.id}
