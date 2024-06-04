@@ -39,14 +39,16 @@ export default function AboutMe() {
             className="font-burtons text-5xl dark:text-white p-10"
           />
         </div>
-        <div className="text-center text-lg pb-10 mx-auto px-10 my-5 dark:text-white">
-          I am a final year undergraduate majoring in Design and Artificial
-          Intelligence (DAI) programme in SUTD. My interests lie in the
-          applications of Artificial Intelligence and Data Science and I have
-          acquired much experience in these areas through a variety of AI
-          projects. As a person who believes in work-life balance, I like to
-          watch comedies and play basketball during my free time to have fun and
-          enjoy life.
+        <div className="w-3/4 text-center text-lg pb-10 mx-auto px-5 my-5 dark:text-white">
+          I am a graduate from Design and Artificial Intelligence (DAI)
+          programme in SUTD. I am considering to continue my studies in
+          Artificial Intelligence. Hence, I will be staying in SUTD as a
+          research assistant under Social AI Studio under Prof Roy Lee. My
+          interests lie in the applications of Artificial Intelligence and Data
+          Science and I have acquired much experience in these areas through a
+          variety of AI projects. As a person who believes in work-life balance,
+          I like to watch comedies and play basketball during my free time to
+          have fun and enjoy life.
         </div>
       </m.section>
       <section className="bg-blue-200 dark:bg-blue-800 p-5">
@@ -93,7 +95,8 @@ export default function AboutMe() {
             <BsFillClipboard2DataFill className="text-5xl dark:text-white" />
             <h3 className="text-lg font-bold">Data Analysis</h3>
             <p className="py-2">
-              This is a data driven world, analyze and understand them to help ourselves
+              This is a data driven world, analyze and understand them to help
+              ourselves
             </p>
           </div>
         </div>
@@ -185,17 +188,14 @@ export default function AboutMe() {
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900 dark:border-white dark:bg-gray-200"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-800 dark:text-gray-100">
-                  September 2020 - Present
+                  September 2020 - April 2024
                 </time>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Singapore University of Technology and Design (SUTD)
                 </h3>
                 <p className="text-base font-normal text-gray-700 dark:text-gray-400 pb-2">
-                  Bachelor of Engineering (Design and Artificial Intelligence),
-                  Honours
-                </p>
-                <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
-                  Expected Date of Graduation: April 2024 (CGPA: 4.05/5.0)
+                  Bachelor of Science (Design and Artificial Intelligence),
+                  Honours (CGPA: 4.0/5.0)
                 </p>
               </li>
               <li className="mb-10 ml-4">
@@ -211,6 +211,21 @@ export default function AboutMe() {
                 </h3>
                 <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
                   AI & IoT Engineer Intern
+                </p>
+              </li>
+              <li className="mb-10 ml-4">
+                <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900 dark:border-white dark:bg-gray-200"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-800 dark:text-gray-100">
+                  May 2024 - Present
+                </time>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Singapore University of Technology and Design (SUTD)
+                </h3>
+                <h3 className="text-sm font-semibold text-gray-800 dark:text-gray-200">
+                  Social AI Studio
+                </h3>
+                <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
+                  Research Assistant
                 </p>
               </li>
             </ol>
