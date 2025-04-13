@@ -40,15 +40,14 @@ export default function AboutMe() {
           />
         </div>
         <div className="w-3/4 text-center text-lg pb-10 mx-auto px-5 my-5 dark:text-white">
-          I am a graduate from Design and Artificial Intelligence (DAI)
-          programme in SUTD. I am considering to continue my studies in
-          Artificial Intelligence. Hence, I will be staying in SUTD as a
-          research assistant under Social AI Studio under Prof Roy Lee. My
-          interests lie in the applications of Artificial Intelligence and Data
-          Science and I have acquired much experience in these areas through a
-          variety of AI projects. As a person who believes in work-life balance,
-          I like to watch comedies and play basketball during my free time to
-          have fun and enjoy life.
+          I graduated from Design and Artificial Intelligence (DAI) programme in
+          SUTD (Singapore University of Technology and Design). I am currently
+          working as a research assistant in Social AI Studio under Prof Roy
+          Ka-Wei Lee. My interests lie in the applications of Artificial
+          Intelligence and Data Science and I have acquired much experience in
+          these areas through a variety of AI projects. As a person who believes
+          in work-life balance, I like to watch comedies and play basketball
+          during my free time to have fun and enjoy life.
         </div>
       </m.section>
       <section className="bg-blue-200 dark:bg-blue-800 p-5">
@@ -61,29 +60,29 @@ export default function AboutMe() {
             className="font-burtons text-5xl dark:text-white p-10"
           />
         </div>
-        <div className="flex flex-col gap-10 p-10 text-center content-center lg:flex-row lg:flex-wrap dark:text-white">
-          <div className="basis-1/4 flex-1 p-5">
+        <div className="flex flex-wrap gap-10 p-10 text-center justify-center lg:flex-wrap dark:text-white">
+          <div className="flex-none flex-col basis-1/4">
             <BsGear className="text-5xl" />
             <h3 className="text-lg font-bold">Machine Learning</h3>
             <p className="py-2">
               I enjoy Machine Learning but I don't learn like machine
             </p>
           </div>
-          <div className="basis-1/4 flex-1 p-5">
+          <div className="flex-none flex-col basis-1/4">
             <SlSpeech className="text-5xl" />
             <h3 className="text-lg font-bold">Natural Language Processing</h3>
             <p className="py-2">
               Language is a powerful tool, process and understand them better
             </p>
           </div>
-          <div className="basis-1/4 flex-1 p-5">
+          <div className="flex-none flex-col basis-1/4">
             <HiOutlineEye className="text-5xl" />
             <h3 className="text-lg font-bold">Computer Vision</h3>
             <p className="py-2">
               Vision made my life, CV helps to discover even more details
             </p>
           </div>
-          <div className="basis-1/4 flex-1 ">
+          <div className="flex-none flex-col basis-1/4">
             <GiRegeneration className="text-5xl dark:text-white" />
             <h3 className="text-lg font-bold">Generative AI</h3>
             <p className="py-2">
@@ -91,7 +90,7 @@ export default function AboutMe() {
               AI to generate
             </p>
           </div>
-          <div className="basis-1/4 flex-1 ">
+          <div className="flex-none flex-col basis-1/4">
             <BsFillClipboard2DataFill className="text-5xl dark:text-white" />
             <h3 className="text-lg font-bold">Data Analysis</h3>
             <p className="py-2">
@@ -111,9 +110,9 @@ export default function AboutMe() {
             className="font-burtons text-5xl dark:text-white p-10"
           />
         </div>
-        <div className="flex flex-col gap-10 p-10 text-center content-center lg:flex-row lg:flex-wrap dark:text-white">
-          <div className="relative basis-1/4 flex-1">
-            <SiPython className="text-5xl" />
+        <div className="flex flex-wrap gap-10 p-10 text-center justify-center lg:flex-wrap dark:text-white">
+          <div className="flex-none flex-col basis-1/4">
+            <SiPython className="text-5xl " />
             <h3 className="text-lg font-bold">Python</h3>
             <p className="py-2 h-50">
               Python is the first language that I learnt since 2020 and it
@@ -130,7 +129,7 @@ export default function AboutMe() {
               <SiStreamlit className="text-5xl m-1" />
             </div>
           </div>
-          <div className="basis-1/4 flex-1">
+          <div className="flex-none flex-col basis-1/4">
             <SiJavascript className="text-5xl" />
             <h3 className="text-lg font-bold">JavaScript</h3>
             <p className="py-2 h-50">
@@ -142,7 +141,7 @@ export default function AboutMe() {
               <SiReact className="text-5xl m-1" />
             </div>
           </div>
-          <div className="basis-1/4 flex-1">
+          <div className="flex-none flex-col basis-1/4">
             <SiRuby className="text-5xl" />
             <h3 className="text-lg font-bold">Ruby</h3>
             <p className="py-2 h-100">
@@ -154,7 +153,7 @@ export default function AboutMe() {
               <SiRubyonrails className="text-5xl m-1" />
             </div>
           </div>
-          <div className="basis-1/4 flex-1">
+          <div className="flex-none flex-col basis-1/4">
             <SiGooglecloud className="text-5xl" />
             <h3 className="text-lg font-bold">Google Cloud Platform</h3>
             <p className="py-2">
@@ -162,7 +161,7 @@ export default function AboutMe() {
               learnt to how to use APIs
             </p>
           </div>
-          <div className="basis-1/4 flex-1">
+          <div className="flex-none flex-col basis-1/4">
             <SiAmazonaws className="text-5xl" />
             <h3 className="text-lg font-bold">Amazon Web Service</h3>
             <p className="py-2">
@@ -185,6 +184,21 @@ export default function AboutMe() {
           </div>
           <div>
             <ol className="relative border-l border-gray-700 dark:border-gray-200">
+              <li className="mb-10 ml-4">
+                <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900 dark:border-white dark:bg-gray-200"></div>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-800 dark:text-gray-100">
+                  May 2024 - Present
+                </time>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                  Singapore University of Technology and Design (SUTD)
+                </h3>
+                <h3 className="text-sm font-semibold text-gray-800 dark:text-gray-200">
+                  Social AI Studio
+                </h3>
+                <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
+                  Research Assistant
+                </p>
+              </li>
               <li className="mb-10 ml-4">
                 <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900 dark:border-white dark:bg-gray-200"></div>
                 <time className="mb-1 text-sm font-normal leading-none text-gray-800 dark:text-gray-100">
@@ -211,21 +225,6 @@ export default function AboutMe() {
                 </h3>
                 <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
                   AI & IoT Engineer Intern
-                </p>
-              </li>
-              <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900 dark:border-white dark:bg-gray-200"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-800 dark:text-gray-100">
-                  May 2024 - Present
-                </time>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                  Singapore University of Technology and Design (SUTD)
-                </h3>
-                <h3 className="text-sm font-semibold text-gray-800 dark:text-gray-200">
-                  Social AI Studio
-                </h3>
-                <p className="mb-4 text-base font-normal text-gray-700 dark:text-gray-400">
-                  Research Assistant
                 </p>
               </li>
             </ol>

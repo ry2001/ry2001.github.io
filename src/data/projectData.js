@@ -112,7 +112,7 @@ export const projectData = [
       Hence, this project aims to use edge devices to detect the unattended baggages in Skytrain through the CCTV footage.
       A Jetson Xavier device with AWS IoT Greengrass installed was planted on the Skytrain, connecting it with the CCTV camera to capture the footage and perform object detection using YOLOv8.`,
     },
-    urls: []
+    urls: [],
   },
   {
     id: 8,
@@ -141,8 +141,7 @@ export const projectData = [
       location: "SUTD",
       course: "50.035 Computer Vision",
       time: "(Sept 2023 - Dec 2023)",
-      collaborator:
-        "",
+      collaborator: "",
       description: `This project aims to use AI model to perform American Sign Language (ASL) recognition and provide immediate feedback to the users.`,
     },
     urls: [],
@@ -155,7 +154,7 @@ export const projectData = [
     desc: {
       location: "SUTD",
       course: "Capstone",
-      time: "(Sept 2023 - present)",
+      time: "(Sept 2023 - April 2024)",
       collaborator:
         "This is a school final year capstone project that collaborates with Klass Engineering as industry partner.",
       description: `In the big data era, people are having multiple social media accounts. 

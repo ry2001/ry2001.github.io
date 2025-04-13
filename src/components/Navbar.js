@@ -5,7 +5,7 @@ export default function Navbar(props) {
   const location = useLocation();
 
   return (
-    <div className="flex bg-blue-500 justify-between items-center p-5 dark:bg-blue-950 dark:text-white w-15 h-15 select-none">
+    <div className="flex bg-blue-500 justify-between items-center p-5 dark:bg-blue-950 dark:text-white select-none">
       <div>
         {props.darkMode ? (
           <Link to="/">
@@ -27,17 +27,30 @@ export default function Navbar(props) {
       </div>
       <div className="flex">
         {location.pathname === "/" ? (
-          <div className="font-bananasitalic text-4xl large:text-5xl px-5">About Me</div>
+          <div className="font-bananasitalic text-4xl large:text-5xl px-5">
+            About Me
+          </div>
         ) : (
           <div className="font-bananasitalic text-4xl large:text-5xl px-5 hover:text-blue-300">
             <Link to="/">About Me</Link>
           </div>
         )}
         {location.pathname.toLowerCase() === "/projects" ? (
-          <div className="font-bananasitalic text-4xl large:text-5xl px-5">Projects</div>
+          <div className="font-bananasitalic text-4xl large:text-5xl px-5">
+            Projects
+          </div>
         ) : (
           <div className="font-bananasitalic text-4xl large:text-5xl px-5 hover:text-blue-300">
             <Link to="/projects">Projects</Link>
+          </div>
+        )}
+        {location.pathname.toLowerCase() === "/publications" ? (
+          <div className="font-bananasitalic text-4xl large:text-5xl px-5">
+            Publications
+          </div>
+        ) : (
+          <div className="font-bananasitalic text-4xl large:text-5xl px-5 hover:text-blue-300">
+            <Link to="/publications">Publications</Link>
           </div>
         )}
       </div>
