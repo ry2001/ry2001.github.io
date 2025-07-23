@@ -27,15 +27,15 @@ a {
 }
 @font-face {
   font-family: "burtons";
-  src: url("../public/Burtons.otf");
+  src: url("/Burtons.otf");
 }
 
 @font-face {
   font-family: "bananas-italic";
-  src: url("../public/BananasItalic.ttf");
+  src: url("/BananasItalic.ttf");
 }
 
 @font-face {
   font-family: "roboto-mono";
-  src: url('../public/RobotoMono.ttf');
+  src: url('/RobotoMono.ttf');
 }
