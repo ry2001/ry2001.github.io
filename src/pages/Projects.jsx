@@ -13,6 +13,7 @@ export default function Projects() {
         {projectData.map((project) => (
           <SingleProject
             key={project.id}
+            id={project.id}
             title={project.title}
             category={project.category}
             image={project.img}

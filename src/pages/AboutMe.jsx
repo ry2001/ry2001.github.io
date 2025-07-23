@@ -1,4 +1,4 @@
-import Typed from "react-typed";
+import { ReactTyped } from "react-typed";
 import { motion as m } from "framer-motion";
 import { SlSpeech } from "react-icons/sl";
 import { HiOutlineEye } from "react-icons/hi";
@@ -31,7 +31,7 @@ export default function AboutMe() {
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <div className="flex justify-center">
-          <Typed
+          <ReactTyped
             strings={["Tan Rui Yang"]}
             typeSpeed={150}
             backSpeed={100}
@@ -52,7 +52,7 @@ export default function AboutMe() {
       </m.section>
       <section className="bg-blue-200 dark:bg-blue-800 p-5">
         <div className="flex justify-center">
-          <Typed
+          <ReactTyped
             strings={["Area of interest"]}
             typeSpeed={150}
             backSpeed={100}
@@ -102,7 +102,7 @@ export default function AboutMe() {
       </section>
       <section className="bg-blue-500 dark:bg-blue-950 p-5">
         <div className="flex justify-center">
-          <Typed
+          <ReactTyped
             strings={["Technical Skills"]}
             typeSpeed={150}
             backSpeed={100}
@@ -174,7 +174,7 @@ export default function AboutMe() {
       <section className="bg-blue-200 dark:bg-blue-800 p-5">
         <div className="flex flex-col mt-10 justify-center items-center">
           <div className="flex justify-center">
-            <Typed
+            <ReactTyped
               strings={["Roadmap"]}
               typeSpeed={150}
               backSpeed={100}

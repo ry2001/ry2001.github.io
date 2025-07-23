@@ -26,16 +26,16 @@ function showDesc(desc) {
   );
 }
 
-function checkURL(url) {
+function checkURL(id, url) {
   if (url.indexOf("github") !== -1) {
     return (
-      <a href={url} target="_blank" rel="noreferrer" className="ml-auto px-1">
+      <a key={`${id}-github`} href={url} target="_blank" rel="noreferrer" className="ml-auto px-1">
         <SiGithub className="cursor-pointer text-3xl m-1 hover:text-blue-400" />
       </a>
     );
   } else if (url.length !== 0) {
     return (
-      <a href={url} target="_blank" rel="noreferrer" className="ml-auto px-1">
+      <a key={`${id}-external`} href={url} target="_blank" rel="noreferrer" className="ml-auto px-1">
         <BiLinkExternal className="cursor-pointer text-3xl m-1 hover:text-blue-400" />
       </a>
     );
@@ -70,7 +70,7 @@ export default function SingleProject(props) {
           <span className="text-sm">{props.category}</span>
         </div>
         <div className="absolute bottom-0">
-          {props.urls.map((url) => checkURL(url))}
+          {props.urls.map((url) => checkURL(props.id, url))}
         </div>
       </m.div>
     </section>

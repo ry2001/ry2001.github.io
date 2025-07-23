@@ -26,6 +26,7 @@ export default function Publications() {
               {groupedData[year].reverse().map((project) => (
                 <SinglePaper
                   key={project.id}
+                  id={project.id}
                   citation={project.citation}
                   title={project.title}
                   urls={project.urls}
