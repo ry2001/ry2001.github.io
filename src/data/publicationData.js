@@ -19,8 +19,8 @@ export const publicationData = [
     citation:
       "Wang, H., Tan, R. Y., & Lee, R. K. W. (2025). Cross-Modal Transfer from Memes to Videos: Addressing Data Scarcity in Hateful Video Detection. arXiv preprint arXiv:2501.15438.",
     urls: [
-      "https://arxiv.org/abs/2501.15438",
       "https://github.com/Social-AI-Studio/CrossModalTransferLearning",
+      "https://arxiv.org/abs/2501.15438",
     ],
   },
 ];
