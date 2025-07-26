@@ -7,19 +7,27 @@ export default function AboutMe() {
         <div className="flex justify-center">
           <p className="font-burtons text-5xl p-10">TAN Rui Yang</p>
         </div>
-        <div className="w-3/4 text-center text-lg pb-10 mx-auto px-5 my-5">
-          <p className="p-3">
-            I am currently a PhD student at the Singapore University of Technology and Design (SUTD)
-            under the supervision of Prof. <a className="text-blue-700 hover:text-blue-900" href='https://www.roylee.sg/'>Roy Ka-Wei Lee</a>. I was
-            a student in the Design and Artificial Intelligence (DAI) programme at SUTD, where I built
-            my foundation in applied AI to real-world problems. You can find some of my projects under the
-            <a href="/projects" className="text-blue-700 hover:text-blue-900"> Projects</a> section.
-          </p>
-          <p className="p-3">
-            My current research interests includes multimodal understanding, multimodal generation and LLM agentic
-            workflow. However, since it is still early in my PhD journey, and the AI field is rapidly evolving, I 
-            am open to explore other areas of AI research.
-          </p>
+        <div className="w-4/5 flex flex-row items-center justify-center mx-auto">
+          <div className="ml-20">
+            <img src="profile.jpg" alt="Profile" className="rounded-lg mx-auto" />
+          </div>
+          <div className="text-justify text-lg pb-10 mx-auto px-5 my-5">
+            <p className="p-3">
+              I am a PhD student at the Singapore University of Technology and Design (SUTD)
+              under the supervision of Prof. <a className="text-blue-700 hover:text-blue-900" href='https://www.roylee.sg/'>Roy Ka-Wei Lee</a>. I was a student in the Design and Artificial Intelligence (DAI) programme at SUTD, where I built
+              my foundation in applied AI to real-world problems. You can find some of my projects under the
+              <a href="/projects" className="text-blue-700 hover:text-blue-900"> Projects</a> section.
+            </p>
+            <p className="p-3">
+              As I just started my PhD journey, I am excited to explore the field in AI research. My research
+              interests include:
+            </p>
+            <ul className="px-5 list-disc list-inside">
+              <li>Multimodal understanding</li>
+              <li>Multimodal generation</li>
+              <li>Agentic AI</li>
+            </ul>
+          </div>
         </div>
       </section>
       <section className="bg-blue-200 p-5">

@@ -10,7 +10,7 @@ export default function Projects() {
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
       <p className="text-center text-sm">Click on the images to learn more about each project.</p>
-      <section className="flex flex-row flex-wrap gap-10 p-5">
+      <section className="flex flex-row flex-wrap p-5 mx-30">
         {projectData.map((project) => (
           <SingleProject
             key={project.id}
