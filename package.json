@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://ry2001.github.io/",
   "private": true,
   "dependencies": {
@@ -15,7 +15,6 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.11.0",
-    "react-typed": "^2.0.12",
     "tailwindcss": "^4.1.11",
     "web-vitals": "^2.1.4"
   },
