@@ -27,7 +27,7 @@ function checkURL(id, url) {
 export default function SinglePaper(props) {
   return (
     <section className="flex mx-auto select-text">
-      <div className="relative flex-1 rounded-xl py-1 bg-gray-200 shadow-lg hover:shadow-xl mb-5 dark:bg-gray-700">
+      <div className="relative flex-1 rounded-xl py-1 bg-gray-200 shadow-lg hover:shadow-xl mb-5">
         <div className="text-center px-4 pt-5 pb-10">
           <p className="text-left font-bold text-lg mb-2">{props.title}</p>
           <p className="text-left mb-2">{props.citation}</p>

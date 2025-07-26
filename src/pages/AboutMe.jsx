@@ -1,31 +1,19 @@
-import { ReactTyped } from "react-typed";
-import { motion as m } from "framer-motion";
+import React from "react";
 
 export default function AboutMe() {
   return (
     <main className="font-robotomono bg-blue-300">
-      <m.section
-        className="bg-blue-300 p-5"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5, ease: "easeOut" }}
-      >
+      <section className="bg-blue-300 p-5">
         <div className="flex justify-center">
-          <ReactTyped
-            strings={["Tan Rui Yang"]}
-            typeSpeed={150}
-            backSpeed={100}
-            loop
-            className="font-burtons text-5xl p-10"
-          />
+          <p className="font-burtons text-5xl p-10">TAN Rui Yang</p>
         </div>
         <div className="w-3/4 text-center text-lg pb-10 mx-auto px-5 my-5">
           <p className="p-3">
             I am currently a PhD student at the Singapore University of Technology and Design (SUTD)
-            under the supervision of Prof. <a className="text-blue-100" href='https://www.roylee.sg/'>Roy Ka-Wei Lee</a>. I was
+            under the supervision of Prof. <a className="text-blue-700 hover:text-blue-900" href='https://www.roylee.sg/'>Roy Ka-Wei Lee</a>. I was
             a student in the Design and Artificial Intelligence (DAI) programme at SUTD, where I built
             my foundation in applied AI to real-world problems. You can find some of my projects under the
-            <a href="/projects" className="text-blue-100"> Projects</a> section.
+            <a href="/projects" className="text-blue-700 hover:text-blue-900"> Projects</a> section.
           </p>
           <p className="p-3">
             My current research interests includes multimodal understanding, multimodal generation and LLM agentic
@@ -33,76 +21,77 @@ export default function AboutMe() {
             am open to explore other areas of AI research.
           </p>
         </div>
-      </m.section>
+      </section>
       <section className="bg-blue-200 p-5">
-        <div className="flex flex-col mt-10 justify-center items-center">
-          <div className="flex justify-center">
-            <ReactTyped
-              strings={["Experiences"]}
-              typeSpeed={150}
-              backSpeed={100}
-              loop
-              className="font-burtons text-5xl p-10"
-            />
+        <div className="w-full flex flex-row justify-center">
+          <div className="w-2/5 flex flex-col mx-5">
+            <p className="font-burtons text-5xl p-10 text-center">Education</p>
+            <div>
+              <ol className="relative border-l border-gray-700">
+                <li className="mb-10 ml-4">
+                  <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-800">
+                    Sept 2025 - Present
+                  </time>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Singapore University of Technology and Design (SUTD)
+                  </h3>
+                  <p className="text-base font-normal text-gray-700 pb-2">
+                    PhD in Information Systems Technology and Design (ISTD)
+                  </p>
+                </li>
+                <li className="mb-10 ml-4">
+                  <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-800">
+                    September 2020 - April 2024
+                  </time>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Singapore University of Technology and Design (SUTD)
+                  </h3>
+                  <p className="text-base font-normal text-gray-700 pb-2">
+                    Bachelor of Science (Design and Artificial Intelligence),
+                    Honours (CGPA: 4.0/5.0)
+                  </p>
+                </li>
+              </ol>
+            </div>
           </div>
-          <div>
-            <ol className="relative border-l border-gray-700">
-              <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-800">
-                  Sept 2025 - Present
-                </time>
-                <h3 className="text-lg font-semibold text-gray-900">
-                  Singapore University of Technology and Design (SUTD)
-                </h3>
-                <p className="text-sm font-semibold text-gray-800">
-                  PhD in Information Systems Technology and Design (ISTD)
-                </p>
-              </li>
-              <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-800">
-                  May 2024 - Aug 2025
-                </time>
-                <h3 className="text-lg font-semibold text-gray-900">
-                  Singapore University of Technology and Design (SUTD)
-                </h3>
-                <h3 className="text-sm font-semibold text-gray-800">
-                  Social AI Studio
-                </h3>
-                <p className="mb-4 text-base font-normal text-gray-700">
-                  Research Assistant
-                </p>
-              </li>
-              <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-800">
-                  September 2020 - April 2024
-                </time>
-                <h3 className="text-lg font-semibold text-gray-900">
-                  Singapore University of Technology and Design (SUTD)
-                </h3>
-                <p className="text-base font-normal text-gray-700 pb-2">
-                  Bachelor of Science (Design and Artificial Intelligence),
-                  Honours (CGPA: 4.0/5.0)
-                </p>
-              </li>
-              <li className="mb-10 ml-4">
-                <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-800">
-                  May 2023 - Sept 2023
-                </time>
-                <h3 className="text-lg font-semibold text-gray-900">
-                  Changi Airport Group (CAG)
-                </h3>
-                <h3 className="text-sm font-semibold text-gray-800">
-                  Digital, Innovation, Ventures & Analytics (DIVA)
-                </h3>
-                <p className="mb-4 text-base font-normal text-gray-700">
-                  AI & IoT Engineer Intern
-                </p>
-              </li>
-            </ol>
+          <div className="w-2/5 flex flex-col mx-5">
+            <p className="font-burtons text-5xl p-10 text-center">Working Experience</p>
+            <div>
+              <ol className="relative border-l border-gray-700">
+                <li className="mb-10 ml-4">
+                  <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-800">
+                    May 2024 - Aug 2025
+                  </time>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Singapore University of Technology and Design (SUTD)
+                  </h3>
+                  <h3 className="text-sm font-semibold text-gray-800">
+                    Social AI Studio
+                  </h3>
+                  <p className="mb-4 text-base font-normal text-gray-700">
+                    Research Assistant
+                  </p>
+                </li>
+                <li className="mb-10 ml-4">
+                  <div className="absolute w-3 h-3 bg-gray-700 rounded-full mt-1.5 -left-1.5 border border-gray-900"></div>
+                  <time className="mb-1 text-sm font-normal leading-none text-gray-800">
+                    May 2023 - Sept 2023
+                  </time>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Changi Airport Group (CAG)
+                  </h3>
+                  <h3 className="text-sm font-semibold text-gray-800">
+                    Digital, Innovation, Ventures & Analytics (DIVA)
+                  </h3>
+                  <p className="mb-4 text-base font-normal text-gray-700">
+                    AI & IoT Engineer Intern
+                  </p>
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </section>
