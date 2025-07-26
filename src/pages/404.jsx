@@ -25,7 +25,7 @@ export default function Error() {
       </div>
       <div className="text-2xl p-10 pt-5">
         <button
-          className="bg-blue-700 hover:bg-blue-500 text-white font-bold p-5 rounded"
+          className="bg-blue-700 hover:bg-blue-300 text-white font-bold p-5 rounded"
           onClick={clickHandler}
         >
           Back To Homepage

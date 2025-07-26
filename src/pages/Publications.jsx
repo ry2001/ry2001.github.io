@@ -12,12 +12,12 @@ export default function Publications() {
 
   return (
     <main
-      className="font-robotomono bg-blue-500 dark:bg-blue-950 p-5 select-none flex-grow"
+      className="font-robotomono bg-blue-300 p-5 select-none flex-grow"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
-      <section className="gap-10 p-5 lg:flex-row lg:flex-wrap dark:text-white">
+      <section className="gap-10 p-5 lg:flex-row lg:flex-wrap">
         {Object.keys(groupedData)
           .reverse()
           .map((year) => (

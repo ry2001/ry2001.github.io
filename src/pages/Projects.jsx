@@ -4,12 +4,12 @@ import SingleProject from "../components/SingleProject";
 export default function Projects() {
   return (
     <main
-      className="font-robotomono bg-blue-500 dark:bg-blue-950 p-5 select-none"
+      className="font-robotomono bg-blue-300 p-5 select-none"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5, ease: "easeOut" }}
     >
-      <section className="flex flex-row flex-wrap gap-10 p-5 dark:text-white">
+      <section className="flex flex-row flex-wrap gap-10 p-5">
         {projectData.map((project) => (
           <SingleProject
             key={project.id}
