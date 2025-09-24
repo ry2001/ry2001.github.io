@@ -22,15 +22,6 @@ export default function Navbar() {
             <Link to="/">About Me</Link>
           </div>
         )}
-        {location.pathname.toLowerCase() === "/projects" ? (
-          <div className="font-bananasitalic text-4xl large:text-5xl px-5">
-            Projects
-          </div>
-        ) : (
-          <div className="font-bananasitalic text-4xl large:text-5xl px-5 hover:text-blue-800">
-            <Link to="/projects">Projects</Link>
-          </div>
-        )}
         {location.pathname.toLowerCase() === "/publications" ? (
           <div className="font-bananasitalic text-4xl large:text-5xl px-5">
             Publications
@@ -38,6 +29,15 @@ export default function Navbar() {
         ) : (
           <div className="font-bananasitalic text-4xl large:text-5xl px-5 hover:text-blue-800">
             <Link to="/publications">Publications</Link>
+          </div>
+        )}
+        {location.pathname.toLowerCase() === "/projects" ? (
+          <div className="font-bananasitalic text-4xl large:text-5xl px-5">
+            Projects
+          </div>
+        ) : (
+          <div className="font-bananasitalic text-4xl large:text-5xl px-5 hover:text-blue-800">
+            <Link to="/projects">Projects</Link>
           </div>
         )}
       </div>

@@ -13,14 +13,13 @@ export default function AboutMe() {
           </div>
           <div className="text-justify text-lg pb-10 mx-auto px-5 my-5">
             <p className="p-3">
-              I am a PhD student at the Singapore University of Technology and Design (SUTD)
+              I am a first year PhD student at the Singapore University of Technology and Design (SUTD)
               under the supervision of Prof. <a className="text-blue-700 hover:text-blue-900" href='https://www.roylee.sg/'>Roy Ka-Wei Lee</a>. I was a student in the Design and Artificial Intelligence (DAI) programme at SUTD, where I built
               my foundation in applied AI to real-world problems. You can find some of my projects under the
               <a href="/projects" className="text-blue-700 hover:text-blue-900"> Projects</a> section.
             </p>
             <p className="p-3">
-              As I just started my PhD journey, I am excited to explore the field in AI research. My research
-              interests include:
+              My research interests include:
             </p>
             <ul className="px-5 list-disc list-inside">
               <li>Multimodal understanding</li>

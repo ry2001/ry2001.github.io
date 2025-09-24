@@ -23,6 +23,15 @@ export const publicationData = [
       "https://arxiv.org/abs/2501.15438",
     ],
   },
+  {
+    id: 3,
+    year: 2025,
+    title:
+      "Humor in Pixels: Benchmarking Large Multimodal Models Understanding of Online Comics",
+    citation:
+      "Ryan, Y., Tan, R. Y., Choo, K. T. W., & Lee, R. K. W. (2025). Humor in Pixels: Benchmarking Large Multimodal Models Understanding of Online Comics. arXiv preprint arXiv:2509.12248.",
+    urls: ["https://github.com/Social-AI-Studio/PixelHumor","https://arxiv.org/abs/2509.12248"],
+  },
 ];
 
 export default publicationData;
