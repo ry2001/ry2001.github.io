@@ -29,8 +29,8 @@ export const publicationData = [
     title:
       "Humor in Pixels: Benchmarking Large Multimodal Models Understanding of Online Comics",
     citation:
-      "Ryan, Y., Tan, R. Y., Choo, K. T. W., & Lee, R. K. W. (2025). Humor in Pixels: Benchmarking Large Multimodal Models Understanding of Online Comics. arXiv preprint arXiv:2509.12248.",
-    urls: ["https://github.com/Social-AI-Studio/PixelHumor","https://arxiv.org/abs/2509.12248"],
+      "Yuriel Ryan, Rui Yang Tan, Kenny Tsu Wei Choo, and Roy Ka-Wei Lee. 2025. Humor in Pixels: Benchmarking Large Multimodal Models Understanding of Online Comics. In Findings of the Association for Computational Linguistics: EMNLP 2025, pages 14024–14050, Suzhou, China. Association for Computational Linguistics.",
+    urls: ["https://github.com/Social-AI-Studio/PixelHumor", "https://arxiv.org/abs/2509.12248"],
   },
 ];
 
