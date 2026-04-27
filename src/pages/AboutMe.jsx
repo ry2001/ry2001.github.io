@@ -14,14 +14,16 @@ export default function AboutMe() {
           <div className="text-justify text-lg pb-10 mx-auto px-5 my-5">
             <p className="p-3">
               I am a first year PhD student at the Singapore University of Technology and Design (SUTD)
-              under the supervision of Prof. <a className="text-blue-700 hover:text-blue-900" href='https://www.roylee.sg/'>Roy Ka-Wei Lee</a>. I was a student in the Design and Artificial Intelligence (DAI) programme at SUTD, where I built
-              my foundation in applied AI to real-world problems. You can find some of my projects under the
-              <a href="/projects" className="text-blue-700 hover:text-blue-900"> Projects</a> section.
+              under the supervision of Prof. <a className="text-blue-700 hover:text-blue-900" href='https://www.roylee.sg/'>Roy Ka-Wei Lee</a>. 
+              You may see some of my research works under the <a href="/publications" className="text-blue-700 hover:text-blue-900"> Publications</a> section.
+              I received my Bachelor Degree from the Design and Artificial Intelligence (DAI) programme at SUTD. 
+              You can find some of my previous projects under the <a href="/projects" className="text-blue-700 hover:text-blue-900"> Projects</a> section.
             </p>
             <p className="p-3">
-              My research interests include:
+              My current research interests include:
             </p>
             <ul className="px-5 list-disc list-inside">
+              <li>Responsible AI</li>
               <li>Multimodal understanding</li>
               <li>Multimodal generation</li>
               <li>Agentic AI</li>
@@ -44,7 +46,7 @@ export default function AboutMe() {
                     Singapore University of Technology and Design (SUTD)
                   </h3>
                   <p className="text-base font-normal text-gray-700 pb-2">
-                    PhD in Information Systems Technology and Design (ISTD)
+                    PhD in Information Systems Technology and Design (ISTD) (CGPA: 4.75/5.0)
                   </p>
                 </li>
                 <li className="mb-10 ml-4">
@@ -64,6 +66,28 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="w-2/5 flex flex-col mx-5">
+            <p className="font-burtons text-5xl p-10 text-center">News</p>
+            <div className="bg-blue-100 overflow-y-auto max-h-96">
+              <ul className="list-inside">
+                <li>
+                  <p className="border-x border-y border-gray-500 p-2">
+                    <strong>Sept 2025:</strong> Our paper "Humor in Pixels: Benchmarking Large Multimodal Models Understanding of Online Comics" has been accepted to EMNLP Findings 2025!
+                  </p>
+                </li>
+                <li>
+                  <p className="border-x border-gray-500 p-2">
+                    <strong>Oct 2024:</strong> Our paper "Cross-Modal Transfer from Memes to Videos: Addressing Data Scarcity in Hateful Video Detection" has been accepted to WWW (Web4Good track) 2025!
+                  </p>
+                </li>
+                <li>
+                  <p className="border-x border-y border-gray-500 p-2">
+                    <strong>April 2024:</strong> Our paper "MultiHateClip: A Multilingual Benchmark Dataset for Hateful Video Detection on YouTube and Bilibili" has been accepted to MM 2024!
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          {/* <div className="w-2/5 flex flex-col mx-5">
             <p className="font-burtons text-5xl p-10 text-center">Working Experience</p>
             <div>
               <ol className="relative border-l border-gray-700">
@@ -99,7 +123,7 @@ export default function AboutMe() {
                 </li>
               </ol>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </main>

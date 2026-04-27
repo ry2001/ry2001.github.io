@@ -29,8 +29,17 @@ export const publicationData = [
     title:
       "Humor in Pixels: Benchmarking Large Multimodal Models Understanding of Online Comics",
     citation:
-      "Yuriel Ryan, Rui Yang Tan, Kenny Tsu Wei Choo, and Roy Ka-Wei Lee. 2025. Humor in Pixels: Benchmarking Large Multimodal Models Understanding of Online Comics. In Findings of the Association for Computational Linguistics: EMNLP 2025, pages 14024–14050, Suzhou, China. Association for Computational Linguistics.",
+      "Ryan, Y., Tan, R. Y., Choo, K. T. W., & Lee, R. K.-W. (2025, November). Humor in Pixels: Benchmarking Large Multimodal Models Understanding of Online Comics. In Findings of the Association for Computational Linguistics: EMNLP 2025 (pp. 14024–14050).",
     urls: ["https://github.com/Social-AI-Studio/PixelHumor", "https://arxiv.org/abs/2509.12248"],
+  },
+  {
+    id: 4,
+    year: 2026,
+    title:
+      "Structured Visual Narratives Undermine Safety Alignment in Multimodal Large Language Models (Under Review)",
+    citation:
+      "Tan, R. Y., Hu, Y., & Lee, R. K. W. (2026). Structured Visual Narratives Undermine Safety Alignment in Multimodal Large Language Models. arXiv preprint arXiv:2603.21697.",
+    urls: ["https://github.com/Social-AI-Studio/ComicJailbreak", "https://arxiv.org/abs/2603.21697"],
   },
 ];
 
