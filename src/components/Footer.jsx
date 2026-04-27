@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <div className="bg-gray-500 p-5 relative bottom-0 w-full text-2xl lg:text-3xl text-black dark:bg-black dark:text-gray-500">
+    <div className="bg-gray-500 p-5 relative bottom-0 w-full text-2xl lg:text-3xl text-black">
       <div className="flex p-5">
         <a
           href="https://www.github.com/ry2001"

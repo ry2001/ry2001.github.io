@@ -10,18 +10,18 @@ function showDesc(desc) {
   const collaborator = desc["collaborator"];
   const description = desc["description"];
   return (
-    <div className="flex flex-col dark:text-ternary-light w-80 large:h-96 large:w-96 px-3">
-      <p className="font-bold text-lg dark:text-ternary-light w-70 pt-3">
+    <div className="flex flex-col w-80 large:h-96 large:w-96 px-3">
+      <p className="font-bold text-lg w-70 pt-3">
         {location}
       </p>
-      <p className="font-bold text-lg dark:text-ternary-light w-70">{course}</p>
-      <p className="font-bold text-lg dark:text-ternary-light w-70 pb-3">
+      <p className="font-bold text-lg w-70">{course}</p>
+      <p className="font-bold text-lg w-70 pb-3">
         {time}
       </p>
-      <p className="text-sm dark:text-ternary-light w-70 py-3">
+      <p className="text-sm w-70 py-3">
         {collaborator}
       </p>
-      <p className="text-sm dark:text-ternary-light w-70 pb-3">{description}</p>
+      <p className="text-sm w-70 pb-3">{description}</p>
     </div>
   );
 }
@@ -48,7 +48,7 @@ export default function SingleProject(props) {
   return (
     <section className="flex mx-auto my-5 select-text">
       <m.div
-        className="relative flex-1 rounded-xl bg-gray-200 shadow-lg hover:shadow-xl mb-10 dark:bg-gray-700"
+        className="relative flex-1 rounded-xl bg-gray-200 shadow-lg hover:shadow-xl mb-10"
         whileHover={{ scale: 1.1 }}
       >
         <div>

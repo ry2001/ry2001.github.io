@@ -1,10 +1,11 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://ry2001.github.io/",
   "private": true,
   "dependencies": {
     "@babel/traverse": "^7.23.6",
+    "@tailwindcss/vite": "^4.1.11",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -14,7 +15,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.11.0",
-    "react-typed": "^2.0.12",
+    "tailwindcss": "^4.1.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -46,8 +47,6 @@
     "@vitejs/plugin-react": "^4.7.0",
     "autoprefixer": "^10.4.14",
     "gh-pages": "^5.0.0",
-    "postcss": "^8.4.23",
-    "tailwindcss": "^3.3.2",
     "vite": "^7.0.5"
   }
 }
