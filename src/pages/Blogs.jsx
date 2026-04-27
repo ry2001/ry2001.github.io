@@ -1,4 +1,4 @@
-export default function Publications() {
+export default function Blogs() {
   return (
     <main
       className="font-robotomono bg-blue-300 p-5 select-none flex-grow"
