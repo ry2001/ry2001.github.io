@@ -71,6 +71,16 @@ export default function AboutMe() {
               <ul className="list-inside">
                 <li>
                   <p className="border-x border-y border-gray-500 p-2">
+                    <strong>Jun 2026:</strong> Invited workshop for DSO World of Science on "Panels of Deception: Visual Narrative Attacks on Multimodal Large Language Models"
+                  </p>
+                </li>
+                <li>
+                  <p className="border-x border-y border-gray-500 p-2">
+                    <strong>Apr 2026:</strong> ComicJailbreak had been integrated to <a href="https://github.com/microsoft/PyRIT">Microsoft/PyRIT</a>
+                  </p>
+                </li>
+                <li>
+                  <p className="border-x border-y border-gray-500 p-2">
                     <strong>Sept 2025:</strong> Our paper "Humor in Pixels: Benchmarking Large Multimodal Models Understanding of Online Comics" has been accepted to EMNLP Findings 2025!
                   </p>
                 </li>
